@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title> Asma El Kissi Portfolio </title>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav>
+    <i class="material-icons">&#xe88a;</i> <a href="Index.html">Home</a>
+    <i class="material-icons">&#xe0ba;</i> <a href="Contact.html">Contact</a>
+  </nav>
+  <!--title-->
+  <h1> <i>Contact Me</i> </h1>
+  <!--insert image adress from google map-->
+  
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.2435428423014!2d10.627252415290673!3d35.818499930038875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13027565dfcc919f%3A0xa93a40486d72cc95!2sRue%20Ahmed%20Chawki%2C%20Sousse!5e0!3m2!1sfr!2stn!4v1640549070691!5m2!1sfr!2stn"
+    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" class="image2"></iframe>
+  <br>
+    <!-- Contacts -->
+  <br>
+  <i class="material-icons">location_city</i><span>Avenue Ahmed Chawki, Ezzahra City, Sousse, 4002</span><br>
+  <i class="material-icons">contact_phone</i> <span>(+216) 97226777</span><br>
+  <i class="material-icons">contact_mail</i><span>asmakissi@gmail.com</span><br>
+
+  <!-- Send message to Asma -->
+  <i class="material-icons">send</i><span>Send message</span><br>
+  <form id="contact-form" class="form-horizontal" role="form">
+    <div class="form-group">
+      <div class="col-sm-12">
+        <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-12">
+        <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+      </div>
+    </div>
+    <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+      <div class="alt-send-button">
+        <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+      </div>
+    </button>
+
+  </form>
+</body>
+<footer>
+  <br>
+  <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+</footer>
+
+</html>
